@@ -17,14 +17,6 @@ End-to-end Business Intelligence solution built using Excel, SQL, Power BI, and 
 
 ---
 
-## The dashboard
-
-![Executive Overview](docs/screenshots/executive_overview.png)
-
-*Executive Overview page, rendered from the live pipeline figures. Eight more pages are specified in [docs/08-power-bi.md](docs/08-power-bi.md).*
-
----
-
 ## The business problem
 
 Meridian Retail Group: **120 stores, 8 warehouses, 250 suppliers, ~50,000 SKUs across 12 categories and 4 regions**: runs inventory from manually-assembled spreadsheets. The result: stock-outs on fast movers, capital trapped in overstock and dead inventory, revenue leakage no one can quantify, and supplier performance discussed anecdotally. RIIP replaces that with one governed, decision-ready platform.
