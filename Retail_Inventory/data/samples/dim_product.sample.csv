@@ -1,0 +1,501 @@
+product_key,sku,product_name,category,subcategory,brand,unit_cost,unit_price,standard_margin_pct,xyz_class,launch_date,discontinue_date,is_active,abc_class
+1,SKU-000001,Audio Item 1,Electronics,Audio,Brand-251,56.79,119.0,52.28,Y,,,True,A
+2,SKU-000002,Accessories Item 2,Automotive,Accessories,Brand-141,171.01,474.81,63.98,Y,,,False,C
+3,SKU-000003,Desk Item 3,Office & Stationery,Desk,Brand-070,170.15,291.73,41.68,Y,,,True,A
+4,SKU-000004,Plush Item 4,Toys & Games,Plush,Brand-280,84.16,157.3,46.5,Z,,,True,A
+5,SKU-000005,Educational Item 5,Toys & Games,Educational,Brand-388,183.97,331.39,44.48,Y,,,False,C
+6,SKU-000006,Lighting Item 6,Garden & DIY,Lighting,Brand-316,48.06,67.97,29.29,Y,,,True,C
+7,SKU-000007,Smart Home Item 7,Electronics,Smart Home,Brand-390,2.44,3.72,34.47,Y,,,True,C
+8,SKU-000008,Food Item 8,Pet Supplies,Food,Brand-236,126.3,234.35,46.11,X,,,True,A
+9,SKU-000009,Womenswear Item 9,Apparel,Womenswear,Brand-269,218.71,302.48,27.69,Y,,,True,A
+10,SKU-000010,Chargers Item 10,Electronics,Chargers,Brand-059,9.94,26.34,62.26,Z,,,True,C
+11,SKU-000011,Snacks Item 11,Grocery,Snacks,Brand-341,46.95,67.03,29.95,Y,,,False,C
+12,SKU-000012,Toys Item 12,Baby & Nursery,Toys,Brand-299,114.88,171.26,32.92,X,,,True,B
+13,SKU-000013,Bedding Item 13,Pet Supplies,Bedding,Brand-102,178.47,402.08,55.61,Y,,,True,A
+14,SKU-000014,Accessories Item 14,Automotive,Accessories,Brand-142,20.96,29.47,28.88,Z,,,True,C
+15,SKU-000015,Bedding Item 15,Pet Supplies,Bedding,Brand-244,87.86,225.35,61.01,Y,,,True,B
+16,SKU-000016,Fluids Item 16,Automotive,Fluids,Brand-006,164.74,358.35,54.03,Y,,,True,A
+17,SKU-000017,Snacks Item 17,Grocery,Snacks,Brand-327,82.68,114.43,27.74,Z,,,True,C
+18,SKU-000018,Audio Item 18,Electronics,Audio,Brand-112,42.76,90.35,52.67,Y,,,True,B
+19,SKU-000019,Lighting Item 19,Garden & DIY,Lighting,Brand-030,44.22,88.91,50.27,Y,,,True,C
+20,SKU-000020,Plush Item 20,Toys & Games,Plush,Brand-132,91.1,203.78,55.29,X,,,True,B
+21,SKU-000021,Snacks Item 21,Grocery,Snacks,Brand-334,106.25,253.75,58.13,X,,,True,B
+22,SKU-000022,Team Sports Item 22,Sports & Outdoors,Team Sports,Brand-110,189.81,410.26,53.73,Z,,,True,C
+23,SKU-000023,Menswear Item 23,Apparel,Menswear,Brand-216,141.83,275.12,48.45,Y,,,True,A
+24,SKU-000024,Clothing Item 24,Baby & Nursery,Clothing,Brand-324,152.35,245.32,37.9,Y,,,False,C
+25,SKU-000025,Electronics Item 25,Automotive,Electronics,Brand-014,216.28,459.1,52.89,Y,,,True,C
+26,SKU-000026,Writing Item 26,Office & Stationery,Writing,Brand-304,91.49,249.15,63.28,X,,,True,B
+27,SKU-000027,Team Sports Item 27,Sports & Outdoors,Team Sports,Brand-116,89.63,174.04,48.5,Z,,,True,A
+28,SKU-000028,Fluids Item 28,Automotive,Fluids,Brand-278,203.25,419.71,51.57,X,,,True,A
+29,SKU-000029,Breakfast Item 29,Grocery,Breakfast,Brand-076,55.22,96.01,42.49,Z,,,True,A
+30,SKU-000030,Board Games Item 30,Toys & Games,Board Games,Brand-056,160.96,359.65,55.24,Y,,,True,A
+31,SKU-000031,Building Item 31,Toys & Games,Building,Brand-315,166.37,474.08,64.91,X,,,True,B
+32,SKU-000032,Womenswear Item 32,Apparel,Womenswear,Brand-323,22.87,33.35,31.42,X,,,True,C
+33,SKU-000033,Smart Home Item 33,Electronics,Smart Home,Brand-392,103.81,155.16,33.1,Z,,,False,C
+34,SKU-000034,Snacks Item 34,Grocery,Snacks,Brand-271,45.32,84.83,46.58,X,,,True,C
+35,SKU-000035,Storage Item 35,Garden & DIY,Storage,Brand-186,42.0,75.34,44.26,X,,,True,B
+36,SKU-000036,Decor Item 36,Home & Kitchen,Decor,Brand-078,102.85,197.27,47.86,Z,,,True,A
+37,SKU-000037,Storage Item 37,Garden & DIY,Storage,Brand-118,64.74,88.64,26.96,Y,,,True,B
+38,SKU-000038,Care Item 38,Automotive,Care,Brand-259,175.44,298.22,41.17,Y,,,True,C
+39,SKU-000039,Skincare Item 39,Health & Beauty,Skincare,Brand-139,199.81,386.62,48.32,X,,,False,C
+40,SKU-000040,Printing Item 40,Office & Stationery,Printing,Brand-193,176.89,342.86,48.41,Z,,,True,A
+41,SKU-000041,Accessories Item 41,Electronics,Accessories,Brand-068,59.63,122.43,51.29,X,,,True,B
+42,SKU-000042,Electronics Item 42,Automotive,Electronics,Brand-176,61.4,132.93,53.81,X,,,True,C
+43,SKU-000043,Accessories Item 43,Pet Supplies,Accessories,Brand-095,57.16,115.85,50.66,Y,,,True,B
+44,SKU-000044,Fitness Item 44,Sports & Outdoors,Fitness,Brand-045,31.01,71.47,56.61,X,,,True,C
+45,SKU-000045,Cookware Item 45,Home & Kitchen,Cookware,Brand-053,207.72,415.36,49.99,Y,,,True,B
+46,SKU-000046,Feeding Item 46,Baby & Nursery,Feeding,Brand-207,89.35,167.01,46.5,X,,,True,A
+47,SKU-000047,Board Games Item 47,Toys & Games,Board Games,Brand-147,50.59,99.68,49.25,X,,,True,C
+48,SKU-000048,Tools Item 48,Garden & DIY,Tools,Brand-040,186.5,262.85,29.05,Y,,,True,C
+49,SKU-000049,Accessories Item 49,Pet Supplies,Accessories,Brand-206,88.72,138.47,35.93,Z,,,True,A
+50,SKU-000050,Electronics Item 50,Automotive,Electronics,Brand-066,9.17,17.01,46.1,X,,,True,C
+51,SKU-000051,Fluids Item 51,Automotive,Fluids,Brand-007,36.88,92.01,59.92,X,,,True,C
+52,SKU-000052,Accessories Item 52,Apparel,Accessories,Brand-053,141.18,295.12,52.16,Z,,,True,A
+53,SKU-000053,Apparel Item 53,Sports & Outdoors,Apparel,Brand-179,172.56,241.74,28.62,Z,,,True,C
+54,SKU-000054,Building Item 54,Toys & Games,Building,Brand-381,47.59,92.75,48.69,Y,,,True,C
+55,SKU-000055,Building Item 55,Toys & Games,Building,Brand-097,201.95,305.38,33.87,X,,,True,C
+56,SKU-000056,Bedding Item 56,Home & Kitchen,Bedding,Brand-114,187.44,410.7,54.36,Y,,,True,B
+57,SKU-000057,Beverages Item 57,Grocery,Beverages,Brand-097,186.87,445.97,58.1,X,,,True,A
+58,SKU-000058,Audio Item 58,Electronics,Audio,Brand-142,51.24,99.96,48.74,X,,,True,C
+59,SKU-000059,Bedding Item 59,Pet Supplies,Bedding,Brand-287,12.54,24.42,48.65,Y,,,True,B
+60,SKU-000060,Accessories Item 60,Pet Supplies,Accessories,Brand-129,191.03,310.84,38.54,Y,,,True,C
+61,SKU-000061,Toys Item 61,Baby & Nursery,Toys,Brand-263,68.32,119.55,42.85,Y,,,True,B
+62,SKU-000062,Accessories Item 62,Pet Supplies,Accessories,Brand-359,136.73,338.14,59.56,Y,,,True,A
+63,SKU-000063,Fitness Item 63,Sports & Outdoors,Fitness,Brand-378,167.55,363.71,53.93,X,,,True,C
+64,SKU-000064,Clothing Item 64,Baby & Nursery,Clothing,Brand-225,29.53,54.47,45.79,Y,,,True,C
+65,SKU-000065,Apparel Item 65,Sports & Outdoors,Apparel,Brand-285,172.11,285.56,39.73,Z,,,True,B
+66,SKU-000066,Fragrance Item 66,Health & Beauty,Fragrance,Brand-367,206.56,283.02,27.02,Z,,,True,B
+67,SKU-000067,Storage Item 67,Garden & DIY,Storage,Brand-314,160.65,231.89,30.72,Y,,,True,B
+68,SKU-000068,Apparel Item 68,Sports & Outdoors,Apparel,Brand-120,97.91,145.53,32.72,Y,,,True,B
+69,SKU-000069,Small Appliances Item 69,Home & Kitchen,Small Appliances,Brand-053,193.05,321.4,39.94,X,,,True,A
+70,SKU-000070,Board Games Item 70,Toys & Games,Board Games,Brand-046,116.75,313.56,62.77,X,,,True,A
+71,SKU-000071,Tools Item 71,Automotive,Tools,Brand-352,164.23,299.72,45.21,Z,,,True,A
+72,SKU-000072,Womenswear Item 72,Apparel,Womenswear,Brand-222,180.78,275.55,34.39,X,,,True,B
+73,SKU-000073,Board Games Item 73,Toys & Games,Board Games,Brand-119,165.23,233.47,29.23,Y,,,True,A
+74,SKU-000074,Audio Item 74,Electronics,Audio,Brand-138,64.4,104.77,38.53,Y,,,True,C
+75,SKU-000075,Bedding Item 75,Pet Supplies,Bedding,Brand-113,27.25,64.31,57.63,X,,,True,C
+76,SKU-000076,Outdoor Play Item 76,Toys & Games,Outdoor Play,Brand-320,53.58,89.8,40.33,X,,,True,C
+77,SKU-000077,Wellness Item 77,Health & Beauty,Wellness,Brand-245,111.38,252.56,55.9,Y,,,True,A
+78,SKU-000078,Footwear Item 78,Apparel,Footwear,Brand-351,111.9,260.89,57.11,Z,,,True,B
+79,SKU-000079,Pantry Item 79,Grocery,Pantry,Brand-121,128.81,182.54,29.43,Y,,,False,C
+80,SKU-000080,Bedding Item 80,Pet Supplies,Bedding,Brand-189,87.83,173.39,49.35,Y,,,True,B
+81,SKU-000081,Feeding Item 81,Baby & Nursery,Feeding,Brand-049,173.44,473.41,63.36,X,,,True,A
+82,SKU-000082,Plush Item 82,Toys & Games,Plush,Brand-388,201.02,341.21,41.09,Y,,,True,B
+83,SKU-000083,Smart Home Item 83,Electronics,Smart Home,Brand-205,55.41,75.94,27.04,X,,,True,B
+84,SKU-000084,Care Item 84,Automotive,Care,Brand-221,162.43,426.69,61.93,Y,,,True,A
+85,SKU-000085,Printing Item 85,Office & Stationery,Printing,Brand-166,149.64,377.37,60.35,Z,,,True,B
+86,SKU-000086,Bedding Item 86,Pet Supplies,Bedding,Brand-109,115.8,213.99,45.89,Y,,,True,A
+87,SKU-000087,Audio Item 87,Electronics,Audio,Brand-379,42.69,80.68,47.09,X,,,True,B
+88,SKU-000088,Skincare Item 88,Health & Beauty,Skincare,Brand-196,175.26,263.43,33.47,X,,,True,A
+89,SKU-000089,Care Item 89,Automotive,Care,Brand-270,211.4,500.69,57.78,X,,,True,B
+90,SKU-000090,Accessories Item 90,Automotive,Accessories,Brand-015,159.22,289.2,44.94,Y,,,True,A
+91,SKU-000091,Board Games Item 91,Toys & Games,Board Games,Brand-111,202.05,274.36,26.36,Z,,,True,C
+92,SKU-000092,Electronics Item 92,Automotive,Electronics,Brand-321,216.54,454.16,52.32,X,,,True,C
+93,SKU-000093,Furniture Item 93,Garden & DIY,Furniture,Brand-036,78.42,212.06,63.02,Y,,,True,A
+94,SKU-000094,Apparel Item 94,Sports & Outdoors,Apparel,Brand-041,140.95,336.93,58.17,Y,,,True,B
+95,SKU-000095,Lighting Item 95,Garden & DIY,Lighting,Brand-324,105.05,164.37,36.09,X,,,True,C
+96,SKU-000096,Fragrance Item 96,Health & Beauty,Fragrance,Brand-124,217.08,297.91,27.13,X,,,True,A
+97,SKU-000097,Kidswear Item 97,Apparel,Kidswear,Brand-110,22.0,58.85,62.61,Y,,,True,C
+98,SKU-000098,Food Item 98,Pet Supplies,Food,Brand-226,91.6,244.15,62.48,Y,,,True,B
+99,SKU-000099,Writing Item 99,Office & Stationery,Writing,Brand-078,192.81,359.03,46.3,Y,,,True,B
+100,SKU-000100,Cables Item 100,Electronics,Cables,Brand-018,63.57,128.93,50.69,Z,,,True,B
+101,SKU-000101,Care Item 101,Automotive,Care,Brand-002,173.63,307.33,43.5,Z,,,True,A
+102,SKU-000102,Menswear Item 102,Apparel,Menswear,Brand-032,85.14,146.27,41.79,Z,,,True,C
+103,SKU-000103,Accessories Item 103,Automotive,Accessories,Brand-064,215.63,307.07,29.78,Z,,,True,B
+104,SKU-000104,Bedding Item 104,Home & Kitchen,Bedding,Brand-278,194.55,273.51,28.87,Z,,,True,A
+105,SKU-000105,Tools Item 105,Automotive,Tools,Brand-119,67.34,102.51,34.31,Z,,,True,C
+106,SKU-000106,Electronics Item 106,Automotive,Electronics,Brand-029,169.79,408.79,58.47,Z,,,True,C
+107,SKU-000107,Tools Item 107,Automotive,Tools,Brand-006,75.1,108.58,30.83,Z,,,False,C
+108,SKU-000108,Writing Item 108,Office & Stationery,Writing,Brand-191,133.99,203.22,34.07,Z,,,True,A
+109,SKU-000109,Building Item 109,Toys & Games,Building,Brand-336,145.38,274.02,46.94,Z,,,True,B
+110,SKU-000110,Food Item 110,Pet Supplies,Food,Brand-136,182.77,275.28,33.61,Y,,,True,B
+111,SKU-000111,Fragrance Item 111,Health & Beauty,Fragrance,Brand-026,6.84,9.99,31.53,Y,,,False,C
+112,SKU-000112,Care Item 112,Automotive,Care,Brand-092,49.6,94.53,47.53,Y,,,True,A
+113,SKU-000113,Beverages Item 113,Grocery,Beverages,Brand-200,157.05,260.55,39.72,Z,,,False,C
+114,SKU-000114,Plush Item 114,Toys & Games,Plush,Brand-076,124.63,249.49,50.05,Y,,,True,C
+115,SKU-000115,Pantry Item 115,Grocery,Pantry,Brand-391,109.79,285.08,61.49,Z,,,True,C
+116,SKU-000116,Pantry Item 116,Grocery,Pantry,Brand-305,13.56,19.66,31.04,Z,,,True,C
+117,SKU-000117,Small Appliances Item 117,Home & Kitchen,Small Appliances,Brand-138,77.6,201.75,61.54,Z,,,True,A
+118,SKU-000118,Cables Item 118,Electronics,Cables,Brand-380,190.52,489.76,61.1,X,,,True,A
+119,SKU-000119,Womenswear Item 119,Apparel,Womenswear,Brand-130,8.25,19.72,58.16,Z,,,True,C
+120,SKU-000120,Cables Item 120,Electronics,Cables,Brand-056,88.12,177.13,50.25,Z,,,True,C
+121,SKU-000121,Plush Item 121,Toys & Games,Plush,Brand-375,208.01,414.41,49.81,Z,,,True,A
+122,SKU-000122,Grooming Item 122,Pet Supplies,Grooming,Brand-383,12.62,25.53,50.57,Z,,,True,C
+123,SKU-000123,Desk Item 123,Office & Stationery,Desk,Brand-125,165.31,348.9,52.62,Y,,,True,A
+124,SKU-000124,Board Games Item 124,Toys & Games,Board Games,Brand-238,57.79,77.74,25.66,Y,,,True,C
+125,SKU-000125,Planting Item 125,Garden & DIY,Planting,Brand-070,190.85,520.36,63.32,X,,,True,A
+126,SKU-000126,Breakfast Item 126,Grocery,Breakfast,Brand-257,164.52,318.99,48.42,Z,,,True,A
+127,SKU-000127,Small Appliances Item 127,Home & Kitchen,Small Appliances,Brand-276,195.03,445.87,56.26,X,,,True,B
+128,SKU-000128,Accessories Item 128,Automotive,Accessories,Brand-284,48.68,81.26,40.09,Z,,,True,C
+129,SKU-000129,Pantry Item 129,Grocery,Pantry,Brand-227,117.59,157.83,25.5,Z,,,True,B
+130,SKU-000130,Desk Item 130,Office & Stationery,Desk,Brand-281,171.77,314.54,45.39,Y,,,True,C
+131,SKU-000131,Pantry Item 131,Grocery,Pantry,Brand-222,55.19,100.87,45.29,X,,,True,C
+132,SKU-000132,Confectionery Item 132,Grocery,Confectionery,Brand-328,51.92,90.26,42.48,X,,,True,C
+133,SKU-000133,Accessories Item 133,Electronics,Accessories,Brand-072,7.44,12.12,38.59,Z,,,True,C
+134,SKU-000134,Confectionery Item 134,Grocery,Confectionery,Brand-193,210.94,324.49,34.99,Y,,,True,A
+135,SKU-000135,Tools Item 135,Automotive,Tools,Brand-167,156.64,290.62,46.1,X,,,True,B
+136,SKU-000136,Grooming Item 136,Health & Beauty,Grooming,Brand-213,140.37,233.99,40.01,Z,,,True,A
+137,SKU-000137,Writing Item 137,Office & Stationery,Writing,Brand-057,164.06,453.17,63.8,X,,,True,B
+138,SKU-000138,Cookware Item 138,Home & Kitchen,Cookware,Brand-130,117.66,172.82,31.92,Z,,,False,C
+139,SKU-000139,Cycling Item 139,Sports & Outdoors,Cycling,Brand-381,105.54,169.64,37.79,Y,,,True,B
+140,SKU-000140,Outdoor Play Item 140,Toys & Games,Outdoor Play,Brand-042,99.72,157.68,36.76,X,,,True,C
+141,SKU-000141,Clothing Item 141,Baby & Nursery,Clothing,Brand-254,141.44,265.53,46.73,X,,,True,B
+142,SKU-000142,Kidswear Item 142,Apparel,Kidswear,Brand-266,45.54,82.76,44.97,Y,,,True,B
+143,SKU-000143,Grooming Item 143,Health & Beauty,Grooming,Brand-190,195.54,397.03,50.75,Y,,,True,B
+144,SKU-000144,Cycling Item 144,Sports & Outdoors,Cycling,Brand-014,178.87,483.43,63.0,Z,,,False,C
+145,SKU-000145,Feeding Item 145,Baby & Nursery,Feeding,Brand-014,77.88,122.47,36.41,Y,,,True,A
+146,SKU-000146,Tools Item 146,Garden & DIY,Tools,Brand-110,127.93,270.53,52.71,Y,,,True,A
+147,SKU-000147,Bedding Item 147,Home & Kitchen,Bedding,Brand-041,32.31,43.66,26.0,X,,,True,C
+148,SKU-000148,Menswear Item 148,Apparel,Menswear,Brand-038,213.96,331.7,35.5,X,,,True,A
+149,SKU-000149,Fluids Item 149,Automotive,Fluids,Brand-064,198.78,352.13,43.55,Z,,,True,A
+150,SKU-000150,Storage Item 150,Home & Kitchen,Storage,Brand-077,202.93,275.12,26.24,X,,,True,C
+151,SKU-000151,Tools Item 151,Garden & DIY,Tools,Brand-335,74.08,147.3,49.71,Z,,,True,B
+152,SKU-000152,Haircare Item 152,Health & Beauty,Haircare,Brand-255,38.46,80.35,52.13,Y,,,True,C
+153,SKU-000153,Clothing Item 153,Baby & Nursery,Clothing,Brand-013,47.77,105.85,54.87,X,,,True,B
+154,SKU-000154,Wellness Item 154,Health & Beauty,Wellness,Brand-251,21.17,38.96,45.66,X,,,True,C
+155,SKU-000155,Educational Item 155,Toys & Games,Educational,Brand-055,27.74,54.56,49.16,X,,,True,C
+156,SKU-000156,Organisation Item 156,Office & Stationery,Organisation,Brand-169,17.08,28.87,40.84,Z,,,True,A
+157,SKU-000157,Smart Home Item 157,Electronics,Smart Home,Brand-016,217.78,296.91,26.65,Y,,,True,A
+158,SKU-000158,Confectionery Item 158,Grocery,Confectionery,Brand-036,17.68,24.9,29.0,Y,,,True,C
+159,SKU-000159,Breakfast Item 159,Grocery,Breakfast,Brand-053,30.46,62.42,51.2,Y,,,True,C
+160,SKU-000160,Tools Item 160,Automotive,Tools,Brand-173,182.26,518.11,64.82,Y,,,True,A
+161,SKU-000161,Feeding Item 161,Baby & Nursery,Feeding,Brand-185,128.28,172.49,25.63,Z,,,True,C
+162,SKU-000162,Desk Item 162,Office & Stationery,Desk,Brand-141,170.71,323.95,47.3,Z,,,True,B
+163,SKU-000163,Apparel Item 163,Sports & Outdoors,Apparel,Brand-248,139.35,309.94,55.04,Y,,,True,A
+164,SKU-000164,Camping Item 164,Sports & Outdoors,Camping,Brand-288,194.26,463.31,58.07,Z,,,True,A
+165,SKU-000165,Plush Item 165,Toys & Games,Plush,Brand-291,141.01,265.1,46.81,Z,,,True,A
+166,SKU-000166,Tools Item 166,Automotive,Tools,Brand-232,115.58,230.22,49.8,Y,,,True,A
+167,SKU-000167,Fragrance Item 167,Health & Beauty,Fragrance,Brand-218,157.24,333.62,52.87,Z,,,True,C
+168,SKU-000168,Womenswear Item 168,Apparel,Womenswear,Brand-197,99.26,244.23,59.36,X,,,True,C
+169,SKU-000169,Apparel Item 169,Sports & Outdoors,Apparel,Brand-095,77.11,109.99,29.89,Z,,,False,C
+170,SKU-000170,Cookware Item 170,Home & Kitchen,Cookware,Brand-195,103.68,273.18,62.05,Z,,,True,A
+171,SKU-000171,Accessories Item 171,Electronics,Accessories,Brand-005,38.58,52.16,26.04,X,,,True,C
+172,SKU-000172,Smart Home Item 172,Electronics,Smart Home,Brand-386,175.55,422.48,58.45,Z,,,True,A
+173,SKU-000173,Tools Item 173,Automotive,Tools,Brand-148,58.46,81.27,28.07,Z,,,True,B
+174,SKU-000174,Grooming Item 174,Pet Supplies,Grooming,Brand-302,35.05,52.15,32.79,X,,,True,B
+175,SKU-000175,Food Item 175,Pet Supplies,Food,Brand-382,55.33,73.93,25.16,Y,,,False,C
+176,SKU-000176,Building Item 176,Toys & Games,Building,Brand-199,185.49,324.34,42.81,Z,,,True,C
+177,SKU-000177,Food Item 177,Pet Supplies,Food,Brand-344,73.65,119.51,38.37,Z,,,True,B
+178,SKU-000178,Smart Home Item 178,Electronics,Smart Home,Brand-192,151.4,221.47,31.64,X,,,True,C
+179,SKU-000179,Planting Item 179,Garden & DIY,Planting,Brand-053,188.63,331.18,43.04,Y,,,True,A
+180,SKU-000180,Pantry Item 180,Grocery,Pantry,Brand-011,18.49,31.39,41.09,Y,,,True,C
+181,SKU-000181,Travel Item 181,Baby & Nursery,Travel,Brand-055,168.66,380.78,55.71,X,,,True,C
+182,SKU-000182,Cables Item 182,Electronics,Cables,Brand-377,68.72,174.97,60.73,Y,,,True,B
+183,SKU-000183,Outdoor Play Item 183,Toys & Games,Outdoor Play,Brand-190,48.83,99.86,51.1,X,,,True,B
+184,SKU-000184,Bedding Item 184,Pet Supplies,Bedding,Brand-128,152.02,217.1,29.98,X,,,False,C
+185,SKU-000185,Outdoor Play Item 185,Toys & Games,Outdoor Play,Brand-178,200.29,316.99,36.82,Y,,,True,C
+186,SKU-000186,Educational Item 186,Toys & Games,Educational,Brand-103,65.96,171.47,61.53,Y,,,True,B
+187,SKU-000187,Cables Item 187,Electronics,Cables,Brand-348,125.79,176.05,28.55,Y,,,True,B
+188,SKU-000188,Camping Item 188,Sports & Outdoors,Camping,Brand-399,64.83,110.39,41.27,Z,,,False,C
+189,SKU-000189,Womenswear Item 189,Apparel,Womenswear,Brand-034,122.61,328.71,62.7,Y,,,True,A
+190,SKU-000190,Fragrance Item 190,Health & Beauty,Fragrance,Brand-287,137.38,371.56,63.03,X,,,True,A
+191,SKU-000191,Toys Item 191,Pet Supplies,Toys,Brand-134,134.86,230.33,41.45,X,,,True,A
+192,SKU-000192,Desk Item 192,Office & Stationery,Desk,Brand-019,137.74,285.15,51.7,X,,,False,C
+193,SKU-000193,Writing Item 193,Office & Stationery,Writing,Brand-368,31.01,54.66,43.27,Y,,,True,C
+194,SKU-000194,Cycling Item 194,Sports & Outdoors,Cycling,Brand-025,153.04,341.14,55.14,X,,,True,A
+195,SKU-000195,Travel Item 195,Baby & Nursery,Travel,Brand-083,148.93,201.98,26.26,X,,,True,B
+196,SKU-000196,Cables Item 196,Electronics,Cables,Brand-011,150.65,217.6,30.77,X,,,False,C
+197,SKU-000197,Cycling Item 197,Sports & Outdoors,Cycling,Brand-189,17.68,35.06,49.57,Y,,,True,C
+198,SKU-000198,Accessories Item 198,Electronics,Accessories,Brand-240,99.13,150.89,34.3,Y,,,True,B
+199,SKU-000199,Apparel Item 199,Sports & Outdoors,Apparel,Brand-128,90.87,187.91,51.64,Z,,,True,A
+200,SKU-000200,Travel Item 200,Baby & Nursery,Travel,Brand-029,20.45,33.55,39.05,Z,,,True,C
+201,SKU-000201,Apparel Item 201,Sports & Outdoors,Apparel,Brand-047,50.09,126.7,60.47,Y,,,True,C
+202,SKU-000202,Lighting Item 202,Garden & DIY,Lighting,Brand-373,97.85,231.71,57.77,X,,,True,C
+203,SKU-000203,Outdoor Play Item 203,Toys & Games,Outdoor Play,Brand-322,163.83,296.33,44.71,Y,,,True,A
+204,SKU-000204,Accessories Item 204,Pet Supplies,Accessories,Brand-374,53.3,120.91,55.92,X,,,True,C
+205,SKU-000205,Board Games Item 205,Toys & Games,Board Games,Brand-212,182.8,284.94,35.85,Y,,,True,B
+206,SKU-000206,Grooming Item 206,Health & Beauty,Grooming,Brand-218,120.76,218.65,44.77,Y,,,True,C
+207,SKU-000207,Fluids Item 207,Automotive,Fluids,Brand-314,167.65,249.85,32.9,Y,,,True,A
+208,SKU-000208,Travel Item 208,Baby & Nursery,Travel,Brand-247,104.75,258.23,59.44,X,,,True,A
+209,SKU-000209,Fragrance Item 209,Health & Beauty,Fragrance,Brand-175,110.57,262.78,57.92,Y,,,True,C
+210,SKU-000210,Tools Item 210,Automotive,Tools,Brand-117,136.91,351.83,61.09,Z,,,True,A
+211,SKU-000211,Haircare Item 211,Health & Beauty,Haircare,Brand-194,204.26,511.92,60.1,Z,,,True,A
+212,SKU-000212,Bedding Item 212,Pet Supplies,Bedding,Brand-026,108.96,297.57,63.38,Y,,,True,B
+213,SKU-000213,Accessories Item 213,Automotive,Accessories,Brand-077,117.01,177.65,34.13,Y,,,True,A
+214,SKU-000214,Building Item 214,Toys & Games,Building,Brand-295,133.04,352.64,62.27,X,,,True,A
+215,SKU-000215,Grooming Item 215,Pet Supplies,Grooming,Brand-347,162.65,311.88,47.85,Z,,,True,A
+216,SKU-000216,Grooming Item 216,Health & Beauty,Grooming,Brand-041,17.2,29.6,41.9,Y,,,True,B
+217,SKU-000217,Storage Item 217,Home & Kitchen,Storage,Brand-039,114.18,217.13,47.41,X,,,True,C
+218,SKU-000218,Smart Home Item 218,Electronics,Smart Home,Brand-035,106.73,174.12,38.7,Y,,,False,C
+219,SKU-000219,Board Games Item 219,Toys & Games,Board Games,Brand-316,202.89,319.72,36.54,Z,,,False,C
+220,SKU-000220,Tools Item 220,Garden & DIY,Tools,Brand-125,109.33,167.31,34.65,Y,,,False,C
+221,SKU-000221,Audio Item 221,Electronics,Audio,Brand-131,103.83,144.81,28.3,Y,,,True,C
+222,SKU-000222,Board Games Item 222,Toys & Games,Board Games,Brand-005,211.74,384.02,44.86,Y,,,True,A
+223,SKU-000223,Accessories Item 223,Pet Supplies,Accessories,Brand-389,99.95,253.11,60.51,Y,,,False,C
+224,SKU-000224,Accessories Item 224,Apparel,Accessories,Brand-174,41.02,82.38,50.21,Y,,,True,A
+225,SKU-000225,Accessories Item 225,Pet Supplies,Accessories,Brand-319,48.9,90.29,45.84,X,,,True,C
+226,SKU-000226,Skincare Item 226,Health & Beauty,Skincare,Brand-283,22.3,38.54,42.14,Y,,,True,C
+227,SKU-000227,Care Item 227,Automotive,Care,Brand-057,1.62,2.87,43.58,Y,,,True,C
+228,SKU-000228,Beverages Item 228,Grocery,Beverages,Brand-320,95.88,143.9,33.37,X,,,True,B
+229,SKU-000229,Pantry Item 229,Grocery,Pantry,Brand-220,169.58,402.97,57.92,Z,,,True,A
+230,SKU-000230,Womenswear Item 230,Apparel,Womenswear,Brand-242,161.76,241.2,32.94,X,,,True,A
+231,SKU-000231,Outdoor Play Item 231,Toys & Games,Outdoor Play,Brand-080,8.52,18.39,53.66,Y,,,True,C
+232,SKU-000232,Tools Item 232,Garden & DIY,Tools,Brand-338,126.04,282.6,55.4,Y,,,False,C
+233,SKU-000233,Decor Item 233,Home & Kitchen,Decor,Brand-372,35.21,67.7,47.99,Y,,,True,C
+234,SKU-000234,Accessories Item 234,Automotive,Accessories,Brand-163,207.13,511.65,59.52,Y,,,True,A
+235,SKU-000235,Board Games Item 235,Toys & Games,Board Games,Brand-037,38.07,60.09,36.64,Z,,,True,C
+236,SKU-000236,Bedding Item 236,Pet Supplies,Bedding,Brand-339,138.42,348.36,60.26,Y,,,False,C
+237,SKU-000237,Printing Item 237,Office & Stationery,Printing,Brand-355,72.78,158.83,54.18,Z,,,True,A
+238,SKU-000238,Board Games Item 238,Toys & Games,Board Games,Brand-203,141.68,329.11,56.95,Z,,,True,B
+239,SKU-000239,Wellness Item 239,Health & Beauty,Wellness,Brand-232,91.58,189.15,51.58,X,,,True,B
+240,SKU-000240,Printing Item 240,Office & Stationery,Printing,Brand-089,167.48,407.04,58.85,X,,,False,C
+241,SKU-000241,Cables Item 241,Electronics,Cables,Brand-027,51.9,147.13,64.72,Y,,,False,C
+242,SKU-000242,Printing Item 242,Office & Stationery,Printing,Brand-377,199.42,342.68,41.81,X,,,True,A
+243,SKU-000243,Smart Home Item 243,Electronics,Smart Home,Brand-193,110.8,261.05,57.56,Y,,,True,B
+244,SKU-000244,Paper Item 244,Office & Stationery,Paper,Brand-110,166.71,368.69,54.78,Y,,,True,C
+245,SKU-000245,Organisation Item 245,Office & Stationery,Organisation,Brand-277,187.17,329.03,43.11,Y,,,True,C
+246,SKU-000246,Audio Item 246,Electronics,Audio,Brand-011,219.74,579.45,62.08,X,,,False,C
+247,SKU-000247,Accessories Item 247,Automotive,Accessories,Brand-032,50.43,85.15,40.78,Z,,,True,B
+248,SKU-000248,Team Sports Item 248,Sports & Outdoors,Team Sports,Brand-097,64.19,122.54,47.62,Y,,,True,B
+249,SKU-000249,Electronics Item 249,Automotive,Electronics,Brand-180,56.22,79.45,29.24,Z,,,True,C
+250,SKU-000250,Cookware Item 250,Home & Kitchen,Cookware,Brand-147,58.94,89.35,34.03,X,,,True,C
+251,SKU-000251,Kidswear Item 251,Apparel,Kidswear,Brand-075,128.76,311.22,58.63,Y,,,True,B
+252,SKU-000252,Building Item 252,Toys & Games,Building,Brand-141,218.58,369.61,40.86,X,,,False,C
+253,SKU-000253,Kidswear Item 253,Apparel,Kidswear,Brand-134,217.88,367.81,40.76,Y,,,True,B
+254,SKU-000254,Grooming Item 254,Health & Beauty,Grooming,Brand-210,116.6,178.94,34.84,Y,,,True,A
+255,SKU-000255,Writing Item 255,Office & Stationery,Writing,Brand-225,141.13,255.04,44.66,Z,,,True,C
+256,SKU-000256,Chargers Item 256,Electronics,Chargers,Brand-353,189.4,442.86,57.23,Y,,,True,B
+257,SKU-000257,Grooming Item 257,Pet Supplies,Grooming,Brand-322,205.35,523.94,60.81,Y,,,True,C
+258,SKU-000258,Cables Item 258,Electronics,Cables,Brand-117,46.04,63.77,27.8,X,,,True,C
+259,SKU-000259,Kidswear Item 259,Apparel,Kidswear,Brand-361,116.99,224.95,47.99,Y,,,True,A
+260,SKU-000260,Paper Item 260,Office & Stationery,Paper,Brand-208,183.47,325.83,43.69,Y,,,True,A
+261,SKU-000261,Electronics Item 261,Automotive,Electronics,Brand-075,67.75,134.35,49.57,Y,,,True,A
+262,SKU-000262,Footwear Item 262,Apparel,Footwear,Brand-136,97.6,170.9,42.89,X,,,True,A
+263,SKU-000263,Skincare Item 263,Health & Beauty,Skincare,Brand-296,216.86,367.22,40.95,X,,,True,C
+264,SKU-000264,Clothing Item 264,Baby & Nursery,Clothing,Brand-328,216.73,386.16,43.88,X,,,True,B
+265,SKU-000265,Clothing Item 265,Baby & Nursery,Clothing,Brand-150,199.48,385.69,48.28,Z,,,True,A
+266,SKU-000266,Beverages Item 266,Grocery,Beverages,Brand-063,175.96,320.16,45.04,Y,,,True,A
+267,SKU-000267,Plush Item 267,Toys & Games,Plush,Brand-077,60.31,107.48,43.89,X,,,True,B
+268,SKU-000268,Team Sports Item 268,Sports & Outdoors,Team Sports,Brand-042,71.61,169.34,57.71,Z,,,True,B
+269,SKU-000269,Paper Item 269,Office & Stationery,Paper,Brand-279,121.08,268.03,54.83,X,,,True,A
+270,SKU-000270,Writing Item 270,Office & Stationery,Writing,Brand-201,124.03,202.18,38.66,Y,,,True,A
+271,SKU-000271,Fragrance Item 271,Health & Beauty,Fragrance,Brand-181,111.95,260.49,57.02,Z,,,False,C
+272,SKU-000272,Storage Item 272,Home & Kitchen,Storage,Brand-269,140.61,344.18,59.15,Z,,,True,B
+273,SKU-000273,Cables Item 273,Electronics,Cables,Brand-331,90.72,131.74,31.14,Z,,,True,A
+274,SKU-000274,Travel Item 274,Baby & Nursery,Travel,Brand-318,165.19,319.56,48.31,Y,,,True,B
+275,SKU-000275,Outdoor Play Item 275,Toys & Games,Outdoor Play,Brand-055,74.38,116.97,36.41,Z,,,False,C
+276,SKU-000276,Board Games Item 276,Toys & Games,Board Games,Brand-236,73.75,162.33,54.57,X,,,False,C
+277,SKU-000277,Educational Item 277,Toys & Games,Educational,Brand-353,29.3,44.77,34.55,Z,,,True,C
+278,SKU-000278,Care Item 278,Automotive,Care,Brand-309,42.73,88.75,51.86,Z,,,True,B
+279,SKU-000279,Small Appliances Item 279,Home & Kitchen,Small Appliances,Brand-132,187.34,289.13,35.2,Z,,,True,C
+280,SKU-000280,Bedding Item 280,Home & Kitchen,Bedding,Brand-157,99.01,181.49,45.45,X,,,True,B
+281,SKU-000281,Grooming Item 281,Health & Beauty,Grooming,Brand-356,51.29,138.42,62.95,X,,,True,C
+282,SKU-000282,Plush Item 282,Toys & Games,Plush,Brand-014,167.42,280.21,40.25,Y,,,True,B
+283,SKU-000283,Accessories Item 283,Pet Supplies,Accessories,Brand-210,122.54,306.58,60.03,Y,,,True,A
+284,SKU-000284,Outdoor Play Item 284,Toys & Games,Outdoor Play,Brand-047,6.12,17.23,64.48,Y,,,True,C
+285,SKU-000285,Building Item 285,Toys & Games,Building,Brand-357,70.62,176.52,59.99,Z,,,True,C
+286,SKU-000286,Toys Item 286,Baby & Nursery,Toys,Brand-016,40.17,58.76,31.63,Y,,,True,A
+287,SKU-000287,Chargers Item 287,Electronics,Chargers,Brand-010,144.81,343.04,57.79,Y,,,True,A
+288,SKU-000288,Breakfast Item 288,Grocery,Breakfast,Brand-132,61.59,83.55,26.29,Y,,,True,B
+289,SKU-000289,Confectionery Item 289,Grocery,Confectionery,Brand-080,15.69,26.47,40.73,X,,,True,C
+290,SKU-000290,Board Games Item 290,Toys & Games,Board Games,Brand-198,13.5,33.61,59.83,X,,,True,C
+291,SKU-000291,Tools Item 291,Automotive,Tools,Brand-120,128.61,271.04,52.55,X,,,True,A
+292,SKU-000292,Wellness Item 292,Health & Beauty,Wellness,Brand-143,6.25,11.64,46.31,Z,,,False,C
+293,SKU-000293,Toys Item 293,Baby & Nursery,Toys,Brand-226,186.96,314.3,40.51,Z,,,True,C
+294,SKU-000294,Haircare Item 294,Health & Beauty,Haircare,Brand-224,35.45,83.4,57.49,Y,,,True,B
+295,SKU-000295,Beverages Item 295,Grocery,Beverages,Brand-374,134.03,287.51,53.38,Y,,,True,C
+296,SKU-000296,Snacks Item 296,Grocery,Snacks,Brand-192,98.66,175.35,43.74,Y,,,True,C
+297,SKU-000297,Storage Item 297,Garden & DIY,Storage,Brand-226,98.26,250.02,60.7,Z,,,True,B
+298,SKU-000298,Educational Item 298,Toys & Games,Educational,Brand-271,17.19,26.12,34.2,Z,,,True,C
+299,SKU-000299,Skincare Item 299,Health & Beauty,Skincare,Brand-070,176.9,259.44,31.82,Y,,,True,A
+300,SKU-000300,Small Appliances Item 300,Home & Kitchen,Small Appliances,Brand-267,196.63,398.94,50.71,Z,,,True,B
+301,SKU-000301,Cycling Item 301,Sports & Outdoors,Cycling,Brand-344,3.91,10.82,63.88,Y,,,True,C
+302,SKU-000302,Tools Item 302,Automotive,Tools,Brand-127,40.53,62.25,34.89,Y,,,True,C
+303,SKU-000303,Bedding Item 303,Home & Kitchen,Bedding,Brand-072,199.0,306.09,34.99,Z,,,True,B
+304,SKU-000304,Tools Item 304,Garden & DIY,Tools,Brand-139,121.56,175.11,30.58,Y,,,False,C
+305,SKU-000305,Beverages Item 305,Grocery,Beverages,Brand-110,34.28,84.48,59.42,Y,,,True,C
+306,SKU-000306,Audio Item 306,Electronics,Audio,Brand-234,45.81,69.47,34.06,Y,,,True,C
+307,SKU-000307,Haircare Item 307,Health & Beauty,Haircare,Brand-345,145.71,265.54,45.13,Y,,,True,A
+308,SKU-000308,Breakfast Item 308,Grocery,Breakfast,Brand-238,159.87,452.06,64.63,Y,,,True,A
+309,SKU-000309,Grooming Item 309,Health & Beauty,Grooming,Brand-051,132.47,177.78,25.49,Y,,,True,C
+310,SKU-000310,Audio Item 310,Electronics,Audio,Brand-126,209.76,397.72,47.26,Y,,,True,A
+311,SKU-000311,Organisation Item 311,Office & Stationery,Organisation,Brand-276,109.45,200.79,45.49,X,,,True,A
+312,SKU-000312,Toys Item 312,Pet Supplies,Toys,Brand-132,67.11,157.16,57.3,Z,,,True,C
+313,SKU-000313,Audio Item 313,Electronics,Audio,Brand-234,105.78,174.01,39.21,Y,,,True,A
+314,SKU-000314,Haircare Item 314,Health & Beauty,Haircare,Brand-277,80.09,136.7,41.41,Z,,,True,A
+315,SKU-000315,Menswear Item 315,Apparel,Menswear,Brand-132,50.53,74.0,31.72,X,,,True,C
+316,SKU-000316,Desk Item 316,Office & Stationery,Desk,Brand-259,11.54,25.44,54.63,Y,,,True,C
+317,SKU-000317,Accessories Item 317,Pet Supplies,Accessories,Brand-159,78.46,179.91,56.39,Y,,,True,C
+318,SKU-000318,Grooming Item 318,Pet Supplies,Grooming,Brand-054,156.94,225.7,30.47,Z,,,True,C
+319,SKU-000319,Clothing Item 319,Baby & Nursery,Clothing,Brand-149,5.53,9.33,40.74,X,,,True,C
+320,SKU-000320,Tools Item 320,Automotive,Tools,Brand-176,97.46,248.09,60.72,Z,,,True,B
+321,SKU-000321,Skincare Item 321,Health & Beauty,Skincare,Brand-001,142.22,189.9,25.11,Y,,,True,C
+322,SKU-000322,Audio Item 322,Electronics,Audio,Brand-357,134.87,213.91,36.95,Y,,,True,C
+323,SKU-000323,Paper Item 323,Office & Stationery,Paper,Brand-211,171.2,324.25,47.2,Y,,,True,A
+324,SKU-000324,Planting Item 324,Garden & DIY,Planting,Brand-015,178.6,289.76,38.36,X,,,True,A
+325,SKU-000325,Toys Item 325,Baby & Nursery,Toys,Brand-347,157.01,244.88,35.88,Y,,,True,B
+326,SKU-000326,Accessories Item 326,Apparel,Accessories,Brand-342,23.96,42.33,43.4,X,,,True,C
+327,SKU-000327,Accessories Item 327,Apparel,Accessories,Brand-005,105.29,155.43,32.26,Y,,,True,A
+328,SKU-000328,Decor Item 328,Home & Kitchen,Decor,Brand-066,133.34,247.77,46.19,Y,,,True,B
+329,SKU-000329,Smart Home Item 329,Electronics,Smart Home,Brand-146,55.16,118.03,53.27,Y,,,True,C
+330,SKU-000330,Confectionery Item 330,Grocery,Confectionery,Brand-203,10.8,20.77,48.01,X,,,True,C
+331,SKU-000331,Pantry Item 331,Grocery,Pantry,Brand-290,50.35,70.64,28.72,X,,,True,A
+332,SKU-000332,Team Sports Item 332,Sports & Outdoors,Team Sports,Brand-170,100.89,244.74,58.78,X,,,True,A
+333,SKU-000333,Fragrance Item 333,Health & Beauty,Fragrance,Brand-245,91.94,135.2,32.0,X,,,True,A
+334,SKU-000334,Electronics Item 334,Automotive,Electronics,Brand-005,40.1,90.3,55.59,Y,,,True,B
+335,SKU-000335,Educational Item 335,Toys & Games,Educational,Brand-263,181.63,299.83,39.42,X,,,True,C
+336,SKU-000336,Care Item 336,Automotive,Care,Brand-366,203.76,466.38,56.31,Z,,,True,A
+337,SKU-000337,Clothing Item 337,Baby & Nursery,Clothing,Brand-210,45.49,68.15,33.25,X,,,True,C
+338,SKU-000338,Haircare Item 338,Health & Beauty,Haircare,Brand-182,204.61,302.98,32.47,X,,,True,B
+339,SKU-000339,Footwear Item 339,Apparel,Footwear,Brand-119,5.4,9.8,44.88,Z,,,True,C
+340,SKU-000340,Travel Item 340,Baby & Nursery,Travel,Brand-381,203.6,276.32,26.32,X,,,True,A
+341,SKU-000341,Printing Item 341,Office & Stationery,Printing,Brand-014,209.5,317.48,34.01,Y,,,True,A
+342,SKU-000342,Haircare Item 342,Health & Beauty,Haircare,Brand-115,4.13,8.97,53.96,Z,,,True,C
+343,SKU-000343,Printing Item 343,Office & Stationery,Printing,Brand-056,168.22,405.3,58.5,Z,,,True,C
+344,SKU-000344,Breakfast Item 344,Grocery,Breakfast,Brand-346,213.49,297.47,28.23,Z,,,True,B
+345,SKU-000345,Planting Item 345,Garden & DIY,Planting,Brand-193,199.44,502.15,60.28,X,,,True,A
+346,SKU-000346,Wellness Item 346,Health & Beauty,Wellness,Brand-369,213.6,495.6,56.9,Y,,,True,A
+347,SKU-000347,Travel Item 347,Baby & Nursery,Travel,Brand-266,121.75,302.77,59.79,Z,,,True,A
+348,SKU-000348,Clothing Item 348,Baby & Nursery,Clothing,Brand-223,18.58,39.48,52.94,Z,,,True,C
+349,SKU-000349,Footwear Item 349,Apparel,Footwear,Brand-207,187.18,389.68,51.97,X,,,True,A
+350,SKU-000350,Chargers Item 350,Electronics,Chargers,Brand-081,135.62,251.17,46.0,Y,,,True,B
+351,SKU-000351,Beverages Item 351,Grocery,Beverages,Brand-225,135.82,277.82,51.11,Y,,,True,A
+352,SKU-000352,Small Appliances Item 352,Home & Kitchen,Small Appliances,Brand-274,92.67,242.37,61.76,X,,,True,B
+353,SKU-000353,Wellness Item 353,Health & Beauty,Wellness,Brand-386,126.45,178.15,29.02,Y,,,True,B
+354,SKU-000354,Plush Item 354,Toys & Games,Plush,Brand-220,35.06,56.21,37.63,X,,,True,C
+355,SKU-000355,Nursery Item 355,Baby & Nursery,Nursery,Brand-375,163.14,226.26,27.9,Y,,,True,B
+356,SKU-000356,Travel Item 356,Baby & Nursery,Travel,Brand-377,17.89,48.08,62.79,X,,,True,C
+357,SKU-000357,Audio Item 357,Electronics,Audio,Brand-209,160.96,281.45,42.81,Y,,,True,A
+358,SKU-000358,Storage Item 358,Garden & DIY,Storage,Brand-176,187.0,389.7,52.01,X,,,True,B
+359,SKU-000359,Accessories Item 359,Electronics,Accessories,Brand-057,104.73,253.25,58.64,Y,,,True,B
+360,SKU-000360,Toys Item 360,Pet Supplies,Toys,Brand-108,112.9,319.29,64.64,X,,,True,C
+361,SKU-000361,Furniture Item 361,Garden & DIY,Furniture,Brand-351,69.72,101.74,31.47,Z,,,True,C
+362,SKU-000362,Furniture Item 362,Garden & DIY,Furniture,Brand-056,213.33,495.89,56.98,X,,,True,B
+363,SKU-000363,Accessories Item 363,Apparel,Accessories,Brand-159,161.69,409.31,60.5,Y,,,False,C
+364,SKU-000364,Furniture Item 364,Garden & DIY,Furniture,Brand-279,82.12,112.42,26.96,X,,,True,A
+365,SKU-000365,Smart Home Item 365,Electronics,Smart Home,Brand-097,39.7,88.54,55.16,X,,,False,C
+366,SKU-000366,Snacks Item 366,Grocery,Snacks,Brand-389,49.48,81.37,39.19,X,,,True,A
+367,SKU-000367,Board Games Item 367,Toys & Games,Board Games,Brand-260,102.87,209.7,50.94,X,,,True,C
+368,SKU-000368,Haircare Item 368,Health & Beauty,Haircare,Brand-012,207.45,381.08,45.56,X,,,True,A
+369,SKU-000369,Bedding Item 369,Home & Kitchen,Bedding,Brand-099,161.91,250.59,35.39,Y,,,True,B
+370,SKU-000370,Fluids Item 370,Automotive,Fluids,Brand-296,48.53,69.74,30.41,Y,,,True,C
+371,SKU-000371,Team Sports Item 371,Sports & Outdoors,Team Sports,Brand-345,189.31,269.2,29.68,X,,,True,A
+372,SKU-000372,Organisation Item 372,Office & Stationery,Organisation,Brand-370,84.14,118.73,29.13,Y,,,True,C
+373,SKU-000373,Camping Item 373,Sports & Outdoors,Camping,Brand-340,187.6,379.08,50.51,Y,,,True,B
+374,SKU-000374,Fitness Item 374,Sports & Outdoors,Fitness,Brand-030,54.31,89.12,39.06,X,,,True,C
+375,SKU-000375,Tools Item 375,Garden & DIY,Tools,Brand-292,136.68,206.05,33.67,Y,,,True,A
+376,SKU-000376,Accessories Item 376,Electronics,Accessories,Brand-044,203.98,431.02,52.68,X,,,True,A
+377,SKU-000377,Toys Item 377,Pet Supplies,Toys,Brand-031,57.85,121.72,52.47,X,,,True,A
+378,SKU-000378,Food Item 378,Pet Supplies,Food,Brand-277,152.9,286.15,46.57,Y,,,True,C
+379,SKU-000379,Camping Item 379,Sports & Outdoors,Camping,Brand-191,217.23,577.71,62.4,Z,,,True,B
+380,SKU-000380,Skincare Item 380,Health & Beauty,Skincare,Brand-259,34.41,57.75,40.42,Z,,,True,A
+381,SKU-000381,Decor Item 381,Home & Kitchen,Decor,Brand-340,20.82,50.09,58.43,Z,,,True,B
+382,SKU-000382,Toys Item 382,Baby & Nursery,Toys,Brand-028,148.81,206.7,28.01,Y,,,True,B
+383,SKU-000383,Clothing Item 383,Baby & Nursery,Clothing,Brand-211,75.73,166.78,54.59,X,,,True,A
+384,SKU-000384,Kidswear Item 384,Apparel,Kidswear,Brand-333,17.07,48.14,64.54,Y,,,True,C
+385,SKU-000385,Small Appliances Item 385,Home & Kitchen,Small Appliances,Brand-176,105.35,256.1,58.86,X,,,True,B
+386,SKU-000386,Accessories Item 386,Electronics,Accessories,Brand-209,166.2,320.77,48.19,X,,,True,A
+387,SKU-000387,Cookware Item 387,Home & Kitchen,Cookware,Brand-199,63.8,127.78,50.07,X,,,False,C
+388,SKU-000388,Tools Item 388,Automotive,Tools,Brand-362,74.71,122.74,39.13,Y,,,True,A
+389,SKU-000389,Furniture Item 389,Garden & DIY,Furniture,Brand-020,186.29,389.56,52.18,Y,,,True,C
+390,SKU-000390,Audio Item 390,Electronics,Audio,Brand-351,115.14,260.59,55.82,X,,,True,B
+391,SKU-000391,Grooming Item 391,Pet Supplies,Grooming,Brand-326,185.64,529.33,64.93,Z,,,True,B
+392,SKU-000392,Womenswear Item 392,Apparel,Womenswear,Brand-325,99.04,179.09,44.7,Y,,,False,C
+393,SKU-000393,Fitness Item 393,Sports & Outdoors,Fitness,Brand-165,209.73,289.09,27.45,Z,,,True,B
+394,SKU-000394,Organisation Item 394,Office & Stationery,Organisation,Brand-206,143.7,280.85,48.83,X,,,True,C
+395,SKU-000395,Grooming Item 395,Pet Supplies,Grooming,Brand-148,26.82,38.18,29.76,Y,,,True,C
+396,SKU-000396,Lighting Item 396,Garden & DIY,Lighting,Brand-101,194.89,298.87,34.79,X,,,True,B
+397,SKU-000397,Decor Item 397,Home & Kitchen,Decor,Brand-350,108.4,175.27,38.15,Y,,,True,A
+398,SKU-000398,Accessories Item 398,Apparel,Accessories,Brand-202,32.45,70.92,54.24,X,,,True,B
+399,SKU-000399,Grooming Item 399,Health & Beauty,Grooming,Brand-289,34.86,51.53,32.35,X,,,True,C
+400,SKU-000400,Fragrance Item 400,Health & Beauty,Fragrance,Brand-041,151.73,221.93,31.63,Y,,,True,A
+401,SKU-000401,Toys Item 401,Baby & Nursery,Toys,Brand-315,11.85,16.19,26.8,X,,,True,C
+402,SKU-000402,Tools Item 402,Automotive,Tools,Brand-263,64.12,160.02,59.93,X,,,False,C
+403,SKU-000403,Grooming Item 403,Health & Beauty,Grooming,Brand-399,32.04,67.8,52.74,Z,,,True,C
+404,SKU-000404,Clothing Item 404,Baby & Nursery,Clothing,Brand-054,97.88,133.35,26.6,X,,,True,C
+405,SKU-000405,Educational Item 405,Toys & Games,Educational,Brand-216,92.04,124.6,26.13,Y,,,True,B
+406,SKU-000406,Breakfast Item 406,Grocery,Breakfast,Brand-204,115.53,219.42,47.35,Y,,,True,C
+407,SKU-000407,Outdoor Play Item 407,Toys & Games,Outdoor Play,Brand-215,62.6,98.28,36.3,X,,,True,C
+408,SKU-000408,Cables Item 408,Electronics,Cables,Brand-022,8.5,16.62,48.87,Y,,,True,C
+409,SKU-000409,Nursery Item 409,Baby & Nursery,Nursery,Brand-189,135.74,235.59,42.38,X,,,True,A
+410,SKU-000410,Bedding Item 410,Home & Kitchen,Bedding,Brand-120,83.16,218.45,61.93,Z,,,True,C
+411,SKU-000411,Footwear Item 411,Apparel,Footwear,Brand-247,143.82,226.53,36.51,X,,,True,C
+412,SKU-000412,Footwear Item 412,Apparel,Footwear,Brand-093,25.24,52.77,52.17,X,,,True,A
+413,SKU-000413,Wellness Item 413,Health & Beauty,Wellness,Brand-174,4.51,6.19,27.16,Y,,,True,C
+414,SKU-000414,Chargers Item 414,Electronics,Chargers,Brand-248,55.75,151.64,63.23,Z,,,True,C
+415,SKU-000415,Cookware Item 415,Home & Kitchen,Cookware,Brand-026,101.26,283.09,64.23,Z,,,True,A
+416,SKU-000416,Food Item 416,Pet Supplies,Food,Brand-314,87.6,192.79,54.56,Z,,,True,C
+417,SKU-000417,Travel Item 417,Baby & Nursery,Travel,Brand-286,178.55,316.63,43.61,Y,,,True,A
+418,SKU-000418,Cables Item 418,Electronics,Cables,Brand-023,84.06,126.98,33.8,Y,,,False,C
+419,SKU-000419,Grooming Item 419,Health & Beauty,Grooming,Brand-026,117.4,276.24,57.5,Y,,,True,A
+420,SKU-000420,Pantry Item 420,Grocery,Pantry,Brand-340,131.18,288.02,54.45,Z,,,True,C
+421,SKU-000421,Clothing Item 421,Baby & Nursery,Clothing,Brand-114,6.27,9.48,33.88,Y,,,True,C
+422,SKU-000422,Grooming Item 422,Pet Supplies,Grooming,Brand-344,114.06,200.28,43.05,Y,,,True,A
+423,SKU-000423,Fluids Item 423,Automotive,Fluids,Brand-200,76.85,136.05,43.51,Y,,,True,B
+424,SKU-000424,Confectionery Item 424,Grocery,Confectionery,Brand-137,93.55,223.04,58.06,Y,,,True,A
+425,SKU-000425,Outdoor Play Item 425,Toys & Games,Outdoor Play,Brand-110,23.41,49.13,52.35,X,,,True,A
+426,SKU-000426,Accessories Item 426,Apparel,Accessories,Brand-263,172.55,350.19,50.73,Y,,,True,A
+427,SKU-000427,Tools Item 427,Garden & DIY,Tools,Brand-044,207.42,423.25,50.99,Y,,,True,B
+428,SKU-000428,Fluids Item 428,Automotive,Fluids,Brand-161,6.37,9.93,35.82,Z,,,True,C
+429,SKU-000429,Cookware Item 429,Home & Kitchen,Cookware,Brand-138,132.9,221.02,39.87,Y,,,True,B
+430,SKU-000430,Toys Item 430,Pet Supplies,Toys,Brand-062,168.4,230.14,26.83,Z,,,True,C
+431,SKU-000431,Chargers Item 431,Electronics,Chargers,Brand-141,63.73,146.43,56.48,Y,,,True,C
+432,SKU-000432,Bedding Item 432,Pet Supplies,Bedding,Brand-211,173.58,300.94,42.32,Z,,,True,B
+433,SKU-000433,Fluids Item 433,Automotive,Fluids,Brand-271,139.67,243.03,42.53,X,,,True,A
+434,SKU-000434,Cables Item 434,Electronics,Cables,Brand-035,204.52,313.75,34.81,Z,,,True,B
+435,SKU-000435,Educational Item 435,Toys & Games,Educational,Brand-349,215.85,323.99,33.38,Y,,,True,B
+436,SKU-000436,Accessories Item 436,Electronics,Accessories,Brand-351,10.75,20.88,48.51,X,,,True,C
+437,SKU-000437,Snacks Item 437,Grocery,Snacks,Brand-277,98.72,150.26,34.3,X,,,True,C
+438,SKU-000438,Feeding Item 438,Baby & Nursery,Feeding,Brand-369,121.02,167.08,27.57,X,,,True,C
+439,SKU-000439,Storage Item 439,Home & Kitchen,Storage,Brand-171,33.56,75.76,55.7,Y,,,False,C
+440,SKU-000440,Fitness Item 440,Sports & Outdoors,Fitness,Brand-328,74.98,125.09,40.06,Z,,,True,C
+441,SKU-000441,Travel Item 441,Baby & Nursery,Travel,Brand-291,217.3,363.44,40.21,Z,,,True,A
+442,SKU-000442,Fragrance Item 442,Health & Beauty,Fragrance,Brand-225,5.05,8.75,42.25,Y,,,True,C
+443,SKU-000443,Chargers Item 443,Electronics,Chargers,Brand-072,100.37,236.73,57.6,Y,,,True,B
+444,SKU-000444,Outdoor Play Item 444,Toys & Games,Outdoor Play,Brand-223,185.62,298.59,37.83,Y,,,True,B
+445,SKU-000445,Breakfast Item 445,Grocery,Breakfast,Brand-360,72.27,161.76,55.32,Z,,,True,C
+446,SKU-000446,Printing Item 446,Office & Stationery,Printing,Brand-393,106.34,284.19,62.58,Z,,,True,B
+447,SKU-000447,Grooming Item 447,Health & Beauty,Grooming,Brand-179,215.2,443.11,51.43,X,,,True,C
+448,SKU-000448,Travel Item 448,Baby & Nursery,Travel,Brand-099,105.26,182.32,42.27,Z,,,False,C
+449,SKU-000449,Beverages Item 449,Grocery,Beverages,Brand-299,30.11,66.78,54.91,Y,,,True,C
+450,SKU-000450,Grooming Item 450,Health & Beauty,Grooming,Brand-031,12.8,22.58,43.32,Z,,,True,C
+451,SKU-000451,Nursery Item 451,Baby & Nursery,Nursery,Brand-061,208.07,356.14,41.58,Z,,,True,C
+452,SKU-000452,Travel Item 452,Baby & Nursery,Travel,Brand-225,59.58,110.36,46.01,Z,,,True,B
+453,SKU-000453,Board Games Item 453,Toys & Games,Board Games,Brand-396,111.64,179.22,37.71,X,,,False,C
+454,SKU-000454,Decor Item 454,Home & Kitchen,Decor,Brand-132,21.32,30.1,29.17,Y,,,False,C
+455,SKU-000455,Organisation Item 455,Office & Stationery,Organisation,Brand-177,94.07,161.06,41.59,X,,,True,C
+456,SKU-000456,Snacks Item 456,Grocery,Snacks,Brand-129,204.73,292.28,29.95,Z,,,True,B
+457,SKU-000457,Accessories Item 457,Electronics,Accessories,Brand-176,111.28,189.95,41.42,X,,,True,C
+458,SKU-000458,Desk Item 458,Office & Stationery,Desk,Brand-003,213.69,405.31,47.28,Y,,,True,A
+459,SKU-000459,Furniture Item 459,Garden & DIY,Furniture,Brand-238,58.06,153.71,62.23,Z,,,True,A
+460,SKU-000460,Chargers Item 460,Electronics,Chargers,Brand-238,111.74,151.92,26.45,X,,,True,B
+461,SKU-000461,Toys Item 461,Pet Supplies,Toys,Brand-126,189.31,377.55,49.86,Y,,,True,B
+462,SKU-000462,Chargers Item 462,Electronics,Chargers,Brand-106,99.44,175.41,43.31,Y,,,True,C
+463,SKU-000463,Grooming Item 463,Pet Supplies,Grooming,Brand-304,62.57,84.34,25.81,Y,,,True,C
+464,SKU-000464,Plush Item 464,Toys & Games,Plush,Brand-075,188.42,289.8,34.98,X,,,True,C
+465,SKU-000465,Storage Item 465,Home & Kitchen,Storage,Brand-019,86.69,123.38,29.74,X,,,True,B
+466,SKU-000466,Feeding Item 466,Baby & Nursery,Feeding,Brand-017,117.46,177.09,33.67,Y,,,True,C
+467,SKU-000467,Audio Item 467,Electronics,Audio,Brand-352,214.87,335.64,35.98,Y,,,True,C
+468,SKU-000468,Paper Item 468,Office & Stationery,Paper,Brand-146,42.25,71.67,41.05,Y,,,False,C
+469,SKU-000469,Accessories Item 469,Apparel,Accessories,Brand-041,67.36,125.12,46.16,X,,,True,B
+470,SKU-000470,Feeding Item 470,Baby & Nursery,Feeding,Brand-351,8.29,11.06,25.04,Y,,,True,B
+471,SKU-000471,Toys Item 471,Pet Supplies,Toys,Brand-060,87.12,127.14,31.47,Y,,,True,A
+472,SKU-000472,Care Item 472,Automotive,Care,Brand-135,45.24,63.49,28.74,X,,,True,C
+473,SKU-000473,Plush Item 473,Toys & Games,Plush,Brand-009,150.09,283.12,46.99,Z,,,True,A
+474,SKU-000474,Educational Item 474,Toys & Games,Educational,Brand-271,41.12,66.5,38.16,Y,,,True,C
+475,SKU-000475,Organisation Item 475,Office & Stationery,Organisation,Brand-280,148.95,280.7,46.94,Y,,,True,A
+476,SKU-000476,Electronics Item 476,Automotive,Electronics,Brand-302,59.07,89.33,33.87,Z,,,True,C
+477,SKU-000477,Lighting Item 477,Garden & DIY,Lighting,Brand-105,79.12,106.87,25.97,Y,,,True,C
+478,SKU-000478,Decor Item 478,Home & Kitchen,Decor,Brand-131,77.73,208.14,62.65,Y,,,False,C
+479,SKU-000479,Writing Item 479,Office & Stationery,Writing,Brand-375,158.11,223.74,29.33,X,,,True,C
+480,SKU-000480,Chargers Item 480,Electronics,Chargers,Brand-328,103.43,147.91,30.07,X,,,True,C
+481,SKU-000481,Fragrance Item 481,Health & Beauty,Fragrance,Brand-015,80.44,116.35,30.86,X,,,True,A
+482,SKU-000482,Electronics Item 482,Automotive,Electronics,Brand-277,187.8,525.33,64.25,Z,,,True,A
+483,SKU-000483,Haircare Item 483,Health & Beauty,Haircare,Brand-325,126.47,251.46,49.71,Z,,,True,C
+484,SKU-000484,Fluids Item 484,Automotive,Fluids,Brand-224,48.22,95.32,49.41,X,,,True,C
+485,SKU-000485,Building Item 485,Toys & Games,Building,Brand-256,198.17,557.72,64.47,X,,,True,B
+486,SKU-000486,Menswear Item 486,Apparel,Menswear,Brand-001,76.37,106.87,28.54,Y,,,True,B
+487,SKU-000487,Apparel Item 487,Sports & Outdoors,Apparel,Brand-012,10.02,27.82,63.98,Y,,,True,B
+488,SKU-000488,Beverages Item 488,Grocery,Beverages,Brand-015,109.57,163.93,33.16,Y,,,True,A
+489,SKU-000489,Care Item 489,Automotive,Care,Brand-064,28.58,57.07,49.92,Y,,,False,C
+490,SKU-000490,Organisation Item 490,Office & Stationery,Organisation,Brand-396,53.6,92.1,41.8,Z,,,True,C
+491,SKU-000491,Nursery Item 491,Baby & Nursery,Nursery,Brand-254,164.74,276.22,40.36,X,,,True,B
+492,SKU-000492,Storage Item 492,Garden & DIY,Storage,Brand-313,30.07,79.66,62.25,Y,,,True,C
+493,SKU-000493,Tools Item 493,Automotive,Tools,Brand-118,177.82,257.59,30.97,Y,,,True,A
+494,SKU-000494,Writing Item 494,Office & Stationery,Writing,Brand-375,206.21,587.2,64.88,Y,,,True,C
+495,SKU-000495,Grooming Item 495,Health & Beauty,Grooming,Brand-080,134.03,224.0,40.17,Z,,,True,B
+496,SKU-000496,Cycling Item 496,Sports & Outdoors,Cycling,Brand-361,156.71,319.5,50.95,X,,,True,B
+497,SKU-000497,Accessories Item 497,Electronics,Accessories,Brand-013,157.42,433.86,63.72,Z,,,True,C
+498,SKU-000498,Team Sports Item 498,Sports & Outdoors,Team Sports,Brand-009,218.43,300.47,27.3,Z,,,True,A
+499,SKU-000499,Travel Item 499,Baby & Nursery,Travel,Brand-032,76.13,199.89,61.91,Z,,,True,B
+500,SKU-000500,Board Games Item 500,Toys & Games,Board Games,Brand-316,37.08,70.92,47.71,Y,,,True,B

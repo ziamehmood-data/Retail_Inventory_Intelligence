@@ -1,0 +1,11 @@
+location_key,location_id,location_type,location_name,region,store_size_sqft,store_format,warehouse_capacity_units,open_date,is_active
+1,STR-001,STORE,Store 1,South,18931.0,Express,,,True
+2,STR-002,STORE,Store 2,East,38523.0,Express,,,True
+3,STR-003,STORE,Store 3,West,11816.0,Flagship,,,True
+4,STR-004,STORE,Store 4,North,38177.0,Flagship,,,True
+5,STR-005,STORE,Store 5,South,24058.0,Standard,,,True
+6,STR-006,STORE,Store 6,East,31170.0,Express,,,True
+7,STR-007,STORE,Store 7,West,36414.0,Express,,,True
+8,STR-008,STORE,Store 8,North,31656.0,Express,,,True
+9,WH-01,WAREHOUSE,Distribution Centre 1,South,,,670411.0,,True
+10,WH-02,WAREHOUSE,Distribution Centre 2,East,,,249963.0,,True

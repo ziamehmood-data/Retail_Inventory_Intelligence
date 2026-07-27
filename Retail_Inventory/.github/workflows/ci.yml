@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  data-quality:
+    name: Data pipeline & quality gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic dataset (demo profile)
+        run: python -m src.generator.run
+
+      - name: Clean data
+        run: python -m src.etl.clean
+
+      - name: Run data-quality gate
+        run: python -m src.quality.validate   # exits non-zero if the gate fails
+
+      - name: Generate KPI report
+        run: python -m src.analysis.kpi_report
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: reports/
+
+  sql-lint:
+    name: SQL lint (suggested)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install sqlfluff
+        run: pip install sqlfluff
+      - name: Lint SQL (non-blocking)
+        run: sqlfluff lint sql/ --dialect postgres || true

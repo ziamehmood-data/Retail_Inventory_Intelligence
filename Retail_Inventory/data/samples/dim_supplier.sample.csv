@@ -1,0 +1,41 @@
+supplier_key,supplier_id,supplier_name,country,region,category_specialisation,reliability_tier,is_active
+1,SUP-0001,Supplier 1,USA,South,Pet Supplies,Silver,True
+2,SUP-0002,Supplier 2,Vietnam,East,Sports & Outdoors,Silver,True
+3,SUP-0003,Supplier 3,USA,East,Health & Beauty,Silver,True
+4,SUP-0004,Supplier 4,China,North,Electronics,Gold,True
+5,SUP-0005,Supplier 5,China,North,Pet Supplies,Bronze,True
+6,SUP-0006,Supplier 6,Vietnam,North,Garden & DIY,Bronze,True
+7,SUP-0007,Supplier 7,Germany,East,Automotive,Silver,True
+8,SUP-0008,Supplier 8,India,South,Grocery,Silver,True
+9,SUP-0009,Supplier 9,China,West,Pet Supplies,Silver,True
+10,SUP-0010,Supplier 10,Vietnam,East,Sports & Outdoors,Gold,True
+11,SUP-0011,Supplier 11,Mexico,North,Home & Kitchen,Bronze,True
+12,SUP-0012,Supplier 12,India,North,Sports & Outdoors,Gold,True
+13,SUP-0013,Supplier 13,China,South,Pet Supplies,Silver,True
+14,SUP-0014,Supplier 14,Mexico,West,Office & Stationery,Gold,True
+15,SUP-0015,Supplier 15,USA,North,Baby & Nursery,Gold,True
+16,SUP-0016,Supplier 16,Vietnam,North,Baby & Nursery,Silver,True
+17,SUP-0017,Supplier 17,Germany,North,Apparel,Silver,True
+18,SUP-0018,Supplier 18,India,South,Home & Kitchen,Bronze,True
+19,SUP-0019,Supplier 19,Mexico,West,Health & Beauty,Bronze,True
+20,SUP-0020,Supplier 20,India,East,Garden & DIY,Gold,True
+21,SUP-0021,Supplier 21,India,South,Automotive,Gold,True
+22,SUP-0022,Supplier 22,Germany,North,Electronics,Silver,True
+23,SUP-0023,Supplier 23,Mexico,South,Electronics,Silver,True
+24,SUP-0024,Supplier 24,USA,East,Grocery,Silver,True
+25,SUP-0025,Supplier 25,Vietnam,South,Office & Stationery,Bronze,True
+26,SUP-0026,Supplier 26,USA,East,Baby & Nursery,Silver,True
+27,SUP-0027,Supplier 27,Mexico,West,Automotive,Gold,True
+28,SUP-0028,Supplier 28,India,North,Apparel,Silver,True
+29,SUP-0029,Supplier 29,Mexico,South,Home & Kitchen,Silver,True
+30,SUP-0030,Supplier 30,India,North,Office & Stationery,Silver,True
+31,SUP-0031,Supplier 31,China,East,Grocery,Gold,True
+32,SUP-0032,Supplier 32,India,South,Baby & Nursery,Silver,True
+33,SUP-0033,Supplier 33,Vietnam,South,Grocery,Silver,True
+34,SUP-0034,Supplier 34,Mexico,North,Grocery,Gold,True
+35,SUP-0035,Supplier 35,Mexico,North,Health & Beauty,Silver,True
+36,SUP-0036,Supplier 36,Vietnam,South,Electronics,Gold,True
+37,SUP-0037,Supplier 37,China,East,Garden & DIY,Silver,True
+38,SUP-0038,Supplier 38,Vietnam,North,Automotive,Silver,True
+39,SUP-0039,Supplier 39,Vietnam,North,Electronics,Bronze,True
+40,SUP-0040,Supplier 40,India,South,Pet Supplies,Gold,True

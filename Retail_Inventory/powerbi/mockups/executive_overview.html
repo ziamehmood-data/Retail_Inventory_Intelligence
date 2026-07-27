@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIIP — Executive Overview</title>
+<style>
+:root{--navy:#1F3864;--teal:#2C8C99;--ink:#1B2430;--muted:#6B7684;--canvas:#EDF0F4;--card:#fff;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--canvas);color:var(--ink)}
+.app{display:-webkit-box;display:flex;min-height:100vh}
+.side{width:210px;-webkit-box-flex:0;flex:0 0 210px}
+.main{-webkit-box-flex:1;flex:1}
+.side{background:var(--navy);color:#dfe5ee;padding:18px 0}
+.brand{padding:0 18px 16px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:10px}
+.brand b{color:#fff;font-size:16px;letter-spacing:.5px}
+.brand span{display:block;font-size:10px;color:#9fb0c9;margin-top:3px;letter-spacing:2px}
+.nav{display:block;padding:9px 18px;font-size:13px;color:#c3cddd;cursor:pointer;border-left:3px solid transparent}
+.nav:hover{background:rgba(255,255,255,.05)}
+.nav.active{background:rgba(44,140,153,.18);border-left-color:var(--teal);color:#fff;font-weight:600}
+.main{padding:18px 22px}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.top h1{font-size:19px;font-weight:700;color:var(--navy)}
+.top .sub{font-size:11px;color:var(--muted);margin-top:2px}
+.filters{display:flex;gap:8px;align-items:center}
+.chip{background:#fff;border:1px solid #d5dbe4;border-radius:16px;padding:5px 12px;font-size:12px;color:var(--ink)}
+.chip b{color:var(--navy)}
+.stamp{font-size:11px;color:var(--muted)}
+.kpirow{display:-webkit-box;display:flex;flex-wrap:wrap;margin:0 -6px 8px}
+.kpi-wrap{width:16.66%;padding:6px;box-sizing:border-box}
+.kpi{background:var(--card);border-radius:10px;padding:14px;box-shadow:0 1px 3px rgba(20,30,45,.07);border-top:3px solid var(--teal)}
+.kl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+.kv{font-size:24px;font-weight:700;color:var(--navy);margin:5px 0 2px}
+.ks{font-size:11px;font-weight:600}
+.row{display:-webkit-box;display:flex;flex-wrap:wrap;margin:0 -6px}
+.col{padding:6px;box-sizing:border-box}
+.c33{width:33.33%}
+.c66{width:66.66%}
+.tile{background:var(--card);border-radius:10px;padding:14px 16px;box-shadow:0 1px 3px rgba(20,30,45,.07)}
+.tile h3{font-size:13px;color:var(--navy);margin-bottom:4px}
+.tile p.cap{font-size:11px;color:var(--muted);margin-bottom:8px}
+.span2{grid-column:span 2}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:6px;justify-content:center}
+.lg{font-size:11px;color:var(--ink)} .lg b{color:var(--navy)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:middle}
+.tile svg{max-width:100%;height:auto;display:block;margin:0 auto}
+.donutwrap{display:flex;flex-direction:column;align-items:center}
+.exc{display:flex;gap:12px;margin-top:2px}
+.excbox{flex:1;text-align:center;background:#F7F3EC;border:1px solid #ecdcc2;border-radius:8px;padding:10px}
+.excbox.red{background:#FBEDEB;border-color:#f2cfc9}
+.excbox .n{font-size:26px;font-weight:800;color:var(--navy)} .excbox.red .n{color:#C0554A}
+.excbox .l{font-size:11px;color:var(--muted);margin-top:2px}
+.narr{background:#F3F6FA;border-left:3px solid var(--teal);border-radius:6px;padding:10px 12px;font-size:12px;color:#39434f;line-height:1.5;margin-top:10px}
+.footnote{font-size:10px;color:var(--muted);margin-top:14px;text-align:center}
+@media(max-width:900px){.app{grid-template-columns:1fr}.side{display:none}.kpirow{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.span2{grid-column:auto}}
+</style></head>
+<body><div class="app">
+<aside class="side">
+  <div class="brand"><b>RIIP</b><span>INVENTORY INTELLIGENCE</span></div>
+  <a class="nav active">Executive Overview</a><a class="nav">Inventory Health</a><a class="nav">Sales Performance</a><a class="nav">Warehouse Performance</a><a class="nav">Supplier Analytics</a><a class="nav">Store Performance</a><a class="nav">Product Performance</a><a class="nav">Forecasting</a><a class="nav">Exceptions</a>
+</aside>
+<main class="main">
+  <div class="top">
+    <div><h1>Executive Overview</h1><div class="sub">Meridian Retail Group · portfolio case study (synthetic data)</div></div>
+    <div class="filters">
+      <span class="chip">Region: <b>All</b></span>
+      <span class="chip">Period: <b>FY2025</b></span>
+      <span class="stamp">Last refreshed 06:00</span>
+    </div>
+  </div>
+  <div class="kpirow"><div class="kpi-wrap"><div class="kpi"><div class="kl">Net Revenue</div><div class="kv">$10.41M</div>
+      <div class="ks" style="color:#3E8E5A">▲ holiday peak</div></div></div><div class="kpi-wrap"><div class="kpi"><div class="kl">Gross Margin</div><div class="kv">47.0%</div>
+      <div class="ks" style="color:#3E8E5A">healthy</div></div></div><div class="kpi-wrap"><div class="kpi"><div class="kl">Inventory Value</div><div class="kv">$2.01M</div>
+      <div class="ks" style="color:#6B7684">on hand today</div></div></div><div class="kpi-wrap"><div class="kpi"><div class="kl">Inv. Turnover</div><div class="kv">2.72x</div>
+      <div class="ks" style="color:#E0A458">target ≥ 3.0</div></div></div><div class="kpi-wrap"><div class="kpi"><div class="kl">Stock-out Rate</div><div class="kv">2.8%</div>
+      <div class="ks" style="color:#E0A458">watch A-class</div></div></div><div class="kpi-wrap"><div class="kpi"><div class="kl">Supplier OTIF</div><div class="kv">69.1%</div>
+      <div class="ks" style="color:#C0554A">below 85% goal</div></div></div></div>
+  <div class="row">
+    <div class="col c66"><div class="tile">
+      <h3>Revenue by Category</h3><p class="cap">Net revenue, current period</p>
+      <svg viewBox="0 0 560 220" width="560" height="220"><text x="132" y="22" text-anchor="end" font-size="12" fill="#1B2430">Automotive</text><rect x="140" y="8" width="350" height="18" rx="3" fill="#1F3864"/><text x="496.0" y="22" font-size="11" fill="#6B7684">$1.14M</text><text x="132" y="52" text-anchor="end" font-size="12" fill="#1B2430">Apparel</text><rect x="140" y="38" width="330" height="18" rx="3" fill="#1F3864"/><text x="476.1486073451772" y="52" font-size="11" fill="#6B7684">$1.07M</text><text x="132" y="82" text-anchor="end" font-size="12" fill="#1B2430">Health & Beauty</text><rect x="140" y="68" width="329" height="18" rx="3" fill="#1F3864"/><text x="475.00492218927855" y="82" font-size="11" fill="#6B7684">$1.07M</text><text x="132" y="112" text-anchor="end" font-size="12" fill="#1B2430">Electronics</text><rect x="140" y="98" width="312" height="18" rx="3" fill="#1F3864"/><text x="458.4327302265369" y="112" font-size="11" fill="#6B7684">$1.01M</text><text x="132" y="142" text-anchor="end" font-size="12" fill="#1B2430">Sports & Outdoors</text><rect x="140" y="128" width="300" height="18" rx="3" fill="#1F3864"/><text x="445.82200736964296" y="142" font-size="11" fill="#6B7684">$973K</text><text x="132" y="172" text-anchor="end" font-size="12" fill="#1B2430">Grocery</text><rect x="140" y="158" width="295" height="18" rx="3" fill="#1F3864"/><text x="441.26821223234" y="172" font-size="11" fill="#6B7684">$959K</text><text x="132" y="202" text-anchor="end" font-size="12" fill="#1B2430">Toys & Games</text><rect x="140" y="188" width="287" height="18" rx="3" fill="#1F3864"/><text x="433.1453678353016" y="202" font-size="11" fill="#6B7684">$932K</text></svg>
+    </div></div>
+    <div class="col c33"><div class="tile">
+      <h3>Revenue by Region</h3><p class="cap">Share of net revenue</p>
+      <div class="donutwrap"><svg viewBox="0 0 180 180" width="180" height="180"><path d="M90.0,20.0 A70,70 0 0 1 142.4,136.4 L122.9,119.2 A44,44 0 0 0 90.0,46.0 Z" fill="#1F3864"/><path d="M142.4,136.4 A70,70 0 0 1 94.0,159.9 L92.5,133.9 A44,44 0 0 0 122.9,119.2 Z" fill="#2C8C99"/><path d="M94.0,159.9 A70,70 0 0 1 37.8,43.3 L57.2,60.7 A44,44 0 0 0 92.5,133.9 Z" fill="#E0A458"/><path d="M37.8,43.3 A70,70 0 0 1 90.0,20.0 L90.0,46.0 A44,44 0 0 0 57.2,60.7 Z" fill="#7E8CA0"/><text x="90.0" y="88.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2430">$10.41M</text><text x="90.0" y="104.0" text-anchor="middle" font-size="10" fill="#6B7684">Net revenue</text></svg><div class="legend"><div class="lg"><span class="dot" style="background:#1F3864"></span>East <b>37%</b></div><div class="lg"><span class="dot" style="background:#2C8C99"></span>North <b>13%</b></div><div class="lg"><span class="dot" style="background:#E0A458"></span>South <b>38%</b></div><div class="lg"><span class="dot" style="background:#7E8CA0"></span>West <b>13%</b></div></div></div>
+    </div></div>
+    <div class="col c66"><div class="tile">
+      <h3>Revenue Trend</h3><p class="cap">Monthly net revenue — holiday ramp</p>
+      <svg viewBox="0 0 560 150" width="560" height="150"><polygon points="30,126 30,57 197,49 363,16 530,16 530,126" fill="#2C8C99" opacity="0.12"/><polyline points="30,57 197,49 363,16 530,16" fill="none" stroke="#2C8C99" stroke-width="2.5"/><circle cx="30" cy="57" r="3.5" fill="#2C8C99"/><text x="30" y="142" text-anchor="middle" font-size="10" fill="#6B7684">Sep</text><text x="30" y="48" text-anchor="middle" font-size="10" fill="#1B2430">$1.95M</text><circle cx="197" cy="49" r="3.5" fill="#2C8C99"/><text x="197" y="142" text-anchor="middle" font-size="10" fill="#6B7684">Oct</text><text x="197" y="40" text-anchor="middle" font-size="10" fill="#1B2430">$2.20M</text><circle cx="363" cy="16" r="3.5" fill="#2C8C99"/><text x="363" y="142" text-anchor="middle" font-size="10" fill="#6B7684">Nov</text><text x="363" y="7" text-anchor="middle" font-size="10" fill="#1B2430">$3.13M</text><circle cx="530" cy="16" r="3.5" fill="#2C8C99"/><text x="530" y="142" text-anchor="middle" font-size="10" fill="#6B7684">Dec</text><text x="530" y="7" text-anchor="middle" font-size="10" fill="#1B2430">$3.13M</text></svg>
+    </div></div>
+    <div class="col c33"><div class="tile">
+      <h3>Supplier OTIF by Tier</h3><p class="cap">On-time-in-full %</p>
+      <svg viewBox="0 0 300 170" width="300" height="170"><rect x="40" y="35" width="46" height="109" rx="4" fill="#3E8E5A"/><text x="64" y="29" text-anchor="middle" font-size="12" font-weight="600" fill="#1B2430">84%</text><text x="64" y="160" text-anchor="middle" font-size="11" fill="#6B7684">Gold</text><rect x="127" y="55" width="46" height="89" rx="4" fill="#E0A458"/><text x="150" y="49" text-anchor="middle" font-size="12" font-weight="600" fill="#1B2430">69%</text><text x="150" y="160" text-anchor="middle" font-size="11" fill="#6B7684">Silver</text><rect x="214" y="81" width="46" height="63" rx="4" fill="#C0554A"/><text x="236" y="75" text-anchor="middle" font-size="12" font-weight="600" fill="#1B2430">49%</text><text x="236" y="160" text-anchor="middle" font-size="11" fill="#6B7684">Bronze</text></svg>
+    </div></div>
+  </div>
+  <div class="row" style="margin-top:6px">
+    <div class="col c66"><div class="tile">
+      <h3>Smart Narrative</h3>
+      <div class="narr">Net revenue reached <b>$10.41M</b> at a <b>47.0%</b> gross
+      margin, driven by the November–December holiday ramp. Inventory turnover of <b>2.72x</b> sits
+      below the 3.0x target, and supplier OTIF of <b>69.1%</b> is below the 85% goal — concentrated
+      in Bronze-tier suppliers (49% OTIF). <b>38</b> SKU-locations need
+      reordering now and <b>69</b> are currently stocked out. Priority actions: expedite Bronze-tier
+      replenishment and review reorder points on A-class items.</div>
+    </div>
+    <div class="tile">
+      <h3>Exceptions</h3><p class="cap">Needs action today</p>
+      <div class="exc">
+        <div class="excbox"><div class="n">38</div><div class="l">Reorder now</div></div>
+        <div class="excbox red"><div class="n">69</div><div class="l">Stocked out</div></div>
+      </div>
+    </div></div>
+  </div>
+  <div class="footnote">RIIP · Executive Overview · Page 1 of 9 · Mock-up rendered from live pipeline figures (demo dataset). Row-Level Security restricts each region/role in the published report.</div>
+</main></div></body></html>

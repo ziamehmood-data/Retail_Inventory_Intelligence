@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project documentation
+    url: https://github.com/<you>/retail-inventory-intelligence-platform/tree/main/docs
+    about: Read the 10 deliverable docs and guides before opening an issue.
