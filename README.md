@@ -1,4 +1,8 @@
-# Retail Inventory Intelligence Platform (RIIP)
+# Retail Inventory Intelligence Platform
+
+![Executive Dashboard](docs/screenshots/executive_overview.png)
+
+End-to-end Business Intelligence solution built using Excel, SQL, Power BI, and DAX.
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-1F3864?logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.12-2C8C99?logo=python&logoColor=white)
