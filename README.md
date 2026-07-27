@@ -7,9 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-6D5C7E)
 ![Status](https://img.shields.io/badge/status-portfolio%20case%20study-7E8CA0)
 
-> **An end-to-end Business Intelligence solution for retail inventory** — from a simulated PostgreSQL data warehouse through SQL, Python, Excel, and a Power BI executive dashboard, delivered as if by a consulting team for a retail client.
+> **An end-to-end Business Intelligence solution for retail inventory**  from a simulated PostgreSQL data warehouse through SQL, Python, Excel, and a Power BI executive dashboard, delivered as if by a consulting team for a retail client.
 
-**This is a portfolio case study built on synthetic data for a fictional retailer (Meridian Retail Group).** Everything — the data, model, queries, dashboards, and analysis — is original and built to production standards, so every design decision is defensible in an interview.
+**This is a portfolio case study built on synthetic data for a fictional retailer (Meridian Retail Group).** Everything: the data, model, queries, dashboards, and analysis is original and built to production standards, so every design decision is defensible in an interview.
 
 ---
 
@@ -23,14 +23,14 @@
 
 ## The business problem
 
-Meridian Retail Group — **120 stores, 8 warehouses, 250 suppliers, ~50,000 SKUs across 12 categories and 4 regions** — runs inventory from manually-assembled spreadsheets. The result: stock-outs on fast movers, capital trapped in overstock and dead inventory, revenue leakage no one can quantify, and supplier performance discussed anecdotally. RIIP replaces that with one governed, decision-ready platform.
+Meridian Retail Group: **120 stores, 8 warehouses, 250 suppliers, ~50,000 SKUs across 12 categories and 4 regions**: runs inventory from manually-assembled spreadsheets. The result: stock-outs on fast movers, capital trapped in overstock and dead inventory, revenue leakage no one can quantify, and supplier performance discussed anecdotally. RIIP replaces that with one governed, decision-ready platform.
 
 **What the analysis found** (read directly from the data):
 
 - **~$729K working capital trapped** in dead + overstocked inventory (36% of the position)
-- **~$1.3M sales estimated lost** to stock-outs — ~2.5× the annual carrying cost
-- The defining insight: Meridian is **overstocked and out-of-stock at the same time** — the signature of an undifferentiated inventory policy
-- **Bronze-tier suppliers (18% of the base) drive 42% of stock-outs** — a small, targetable root cause
+- **~$1.3M sales estimated lost** to stock-outs ~2.5× the annual carrying cost
+- The defining insight: Meridian is **overstocked and out-of-stock at the same time** the signature of an undifferentiated inventory policy
+- **Bronze-tier suppliers (18% of the base) drive 42% of stock-outs**  a small, targetable root cause
 
 Full analysis: [docs/09-business-insights.md](docs/09-business-insights.md).
 
@@ -39,8 +39,8 @@ Full analysis: [docs/09-business-insights.md](docs/09-business-insights.md).
 ## What makes this project different
 
 - **Simulation, not `random()`.** The data comes from a day-by-day inventory *ledger* — stock-outs, dead stock, late deliveries, and seasonality all *emerge* from the mechanics rather than being faked. ([details](docs/04-synthetic-dataset.md))
-- **Every query executed.** All **54 business SQL queries** run against the data and return sensible results — validated, not just written.
-- **Cross-tool consistency.** SQL, Excel, and Python independently report **$10.4M revenue, 47% margin, 69% OTIF** — because they read the same data. That agreement is the integrity proof.
+- **Every query executed.** All **54 business SQL queries** run against the data and return sensible results. validated, not just written.
+- **Cross-tool consistency.** SQL, Excel, and Python independently report **$10.4M revenue, 47% margin, 69% OTIF** because they read the same data. That agreement is the integrity proof.
 - **Real modelling depth.** A 12-table star schema using all three Kimball fact types, semi-additive inventory handling, and **44 explained DAX measures**.
 - **Honest engineering.** Deliberate data-quality issues are injected and cleaned; bugs found during validation are documented and fixed, not hidden.
 
@@ -71,7 +71,7 @@ Full architecture: [docs/02-solution-architecture.md](docs/02-solution-architect
 | Data engineering | Python (Pandas, NumPy) — generation, cleaning, validation, EDA |
 | Transformation | Power Query (M), SQL views |
 | Semantic & BI | Power BI + DAX + Row-Level Security |
-| Ad-hoc analysis | Excel — Power Query, pivots, conditional formatting |
+| Ad-hoc analysis | Excel: Power Query, pivots, conditional formatting |
 | Version control | Git + GitHub (+ Actions) |
 | Phase 2 (optional) | Microsoft Fabric (ML forecasting) |
 
